@@ -1,31 +1,67 @@
-# Next.js & Cloudinary example app
+# Cake-Shop
 
-This example shows how to create an image gallery site using Next.js, [Cloudinary](https://cloudinary.com), and [Tailwind](https://tailwindcss.com).
+This project showcases a gallery of cake images with seamless integration for ordering via WhatsApp. Built using Next.js, Tailwind CSS, and Cloudinary, and deployed on Vercel.
 
-## Deploy your own
+## Features
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or view the demo [here](https://nextconf-images.vercel.app/)
+- Over 150 custom cake images
+- Popup view for each cake with detailed description.
+- Responsive design for both desktop and mobile
+- Location and phone link for easy contact
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application.)
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Image Hosting**: Cloudinary
+- **Deployment**: Vercel
 
-## How to use
+## Installation
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example::
+To get a local copy up and running, follow these steps:
 
-```bash
- npx create-next-app --example with-cloudinary nextjs-image-gallery
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/cake-shop.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd cake-shop
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Set up environment variables:
+    - Create a `.env.local` file in the root directory
+    - Add your Cloudinary credentials and other necessary environment variables
+    ```env
+    CLOUDINARY_CLOUD_NAME=your-cloud-name
+    CLOUDINARY_API_KEY=your-api-key
+    CLOUDINARY_API_SECRET=your-api-secret
+    ```
+5. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-```bash
-yarn create next-app --example with-cloudinary nextjs-image-gallery
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-pnpm create next-app --example with-cloudinary nextjs-image-gallery
-```
+## Deployment
 
-## References
+The project is deployed on Vercel. Any changes pushed to the `main` branch will automatically deploy to the production site.
 
-- Cloudinary API: https://cloudinary.com/documentation/transformation_reference
+## How to Use
+
+1. **Browse the Gallery**: Scroll through the collection of cake designs.
+2. **View Cake Details**: Click on any cake image to see a popup with more details, including a description, date, and a button for WhatsApp ordering.
+3. **Order via WhatsApp**: Use the WhatsApp button to directly message with the cake image, required quantity, and price.
+4. **Contact Us**: Easily find the location and contact number with the provided links for personalized service.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
