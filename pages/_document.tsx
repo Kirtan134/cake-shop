@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico?v=2"  />
           <meta
             name="description"
             content="See pictures of cakes from homeland cakes."
