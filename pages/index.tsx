@@ -104,34 +104,34 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Thank you to{" "}
+        ©️2024 {" "}
         <a
           href="https://edelsonphotography.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Josh Edelson
+          Homeland Cakes,{""}
         </a>
-        ,{" "}
+      
         <a
           href="https://www.newrevmedia.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Jenny Morgan
+          
         </a>
-        , and{" "}
+    
         <a
           href="https://www.garysextonphotography.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Gary Sexton
+         
         </a>{" "}
-        for the pictures.
+        All Rights Reserved.
       </footer>
     </>
   );
