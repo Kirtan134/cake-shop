@@ -58,23 +58,42 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-white to-white"></span>
             </div>
             <Logo />
-            <h1 className="mt-3 mb-4 text-3xl font-pacifico ">
+            <h1 className=" text-3xl font-pacifico ">
               Homeland Cakes
             </h1>
             <p className="text-3xl font-caveat ">Freshly Baked</p>
             <p className="max-w-[40ch] text-black/75 sm:max-w-[32ch]">
-            Discover the art of baking with Homeland Cakes. Our skilled pastry chefs create mouthwatering cakes that will delight your senses and make any event truly special.
-
+            Any celebration, whether a cozy gathering or an extravagent party, is incomplete without cake! We offer a wide range of handcrafted speciality cakes that are a treat to the eyes and also the taste buds. Click on the whatsapp button below to place an order.
             </p>
+            <div className="flex flex-auto">
             <a
-              className="pointer flex z-10 mt-6 justify-evenly rounded-full border bg-green-500 px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
+              className="pointer flex z-10 mx-2 mt-6 justify-evenly rounded-full border bg-green-500 px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
               href="https://wa.me/9574626395"
               target="_blank"
               rel="noreferrer"
             >
-              Whatsapp   
-              <img className="mx-3 invert" src="Whatsapp.png" alt=""  width={20}/>
+                 
+              <img className="mx-3 invert bold" src="whatsapp.png" alt=""  width= "20px"/>
             </a>
+            <a
+              className="pointer flex z-10 mx-2 mt-6 justify-evenly rounded-full border bg-slate-400  px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
+              href="https://maps.app.goo.gl/Acn2LmQdVWy2MdsV8"
+              target="_blank"
+              rel="noreferrer"
+            >
+                 
+              <img className="mx-3 invert" src="location.png" alt=""  width="20px"/>
+            </a>
+            <a
+              className="pointer flex z-10 mx-2 mt-6 justify-evenly rounded-full border bg-blue-400  px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
+              href="tel:+91-9574626395"
+              target="_blank"
+              rel="noreferrer"
+            >
+                
+              <img className="mx-3 invert" src="phone.png" alt=""  width="20px"/>
+            </a>
+            </div>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
