@@ -10,17 +10,17 @@ class MyDocument extends Document {
             name="description"
             content="See pictures of cakes from homeland cakes."
           />
-          <meta property="og:Homeland cakes" content="nextjsconf-pics.vercel.app" />
+          <meta property="og:Homeland cakes" content="homelandcakes.vercel.app" />
           <meta
             property="og:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Homeland Cakes Gallery."
           />
-          <meta property="og:title" content="Next.js Conf 2022 Pictures" />
+          <meta property="og:title" content="Homeland Cakes Gallery" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Next.js Conf 2022 Pictures" />
+          <meta name="twitter:title" content="Homeland Cakes Gallery" />
           <meta
             name="twitter:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Homeland Cakes Gallery"
           />
         </Head>
         <body className="bg-black antialiased">
