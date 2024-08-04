@@ -13,14 +13,14 @@ class MyDocument extends Document {
           <meta property="og:Homeland cakes" content="homelandcakes.vercel.app" />
           <meta
             property="og:description"
-            content="Homeland Cakes Gallery."
+            content="Welcome to Homeland Cakes! With over 200 custom cake designs, we transform your sweetest dreams into reality. Browse our gallery to find inspiration and order directly via WhatsApp for personalized service. We use only the finest ingredients to craft cakes that taste as good as they look. Let us make your next celebration unforgettable with our exquisite creations."
           />
           <meta property="og:title" content="Homeland Cakes Gallery" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Homeland Cakes Gallery" />
+          <meta name="twitter:title" content="Welcome to Homeland Cakes! With over 200 custom cake designs, we transform your sweetest dreams into reality. Browse our gallery to find inspiration and order directly via WhatsApp for personalized service. We use only the finest ingredients to craft cakes that taste as good as they look. Let us make your next celebration unforgettable with our exquisite creations." />
           <meta
             name="twitter:description"
-            content="Homeland Cakes Gallery"
+            content="Welcome to Homeland Cakes! With over 200 custom cake designs, we transform your sweetest dreams into reality. Browse our gallery to find inspiration and order directly via WhatsApp for personalized service. We use only the finest ingredients to craft cakes that taste as good as they look. Let us make your next celebration unforgettable with our exquisite creations."
           />
         </Head>
         <body className="bg-black antialiased">
