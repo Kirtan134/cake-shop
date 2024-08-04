@@ -25,9 +25,9 @@ class MyDocument extends Document {
           />
         </Head>
         <body className="bg-black antialiased">
-        <Analytics/>
           <Main />
           <NextScript />
+        <Analytics/>
         </body>
       </Html>
     );
