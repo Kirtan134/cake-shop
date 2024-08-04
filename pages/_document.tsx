@@ -8,9 +8,9 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="See pictures of cakes from homeland cakes."
           />
-          <meta property="og:site_name" content="nextjsconf-pics.vercel.app" />
+          <meta property="og:Homeland cakes" content="nextjsconf-pics.vercel.app" />
           <meta
             property="og:description"
             content="See pictures from Next.js Conf and the After Party."
