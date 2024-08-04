@@ -50,20 +50,20 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           />
         )}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
-          <div className="after:content relative mb-5 flex h-[629px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-pink-100 px-6 pb-16 pt-64 text-center text-black shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-pink-100 px-6 pb-16 text-center text-black shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
-              {/* <span className="flex max-h-full max-w-full items-center justify-center">
+              <span className="flex max-h-full max-w-full items-center justify-center">
                 <Bridge />
-              </span> */}
+              </span>
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-white to-white"></span>
             </div>
-            <Logo />
+            <Logo/>
             <h1 className=" text-3xl font-pacifico ">
               Homeland Cakes
             </h1>
             <p className="text-3xl font-caveat ">Freshly Baked</p>
             <p className="max-w-[40ch] text-black/75 sm:max-w-[32ch]">
-            Any celebration, whether a cozy gathering or an extravagent party, is incomplete without cake! We offer a wide range of handcrafted speciality cakes that are a treat to the eyes and also the taste buds. Click on the whatsapp button below to place an order.
+            Welcome to Homeland Cakes! With over 200 custom cake designs, we transform your sweetest dreams into reality. Browse our gallery to find inspiration and order directly via WhatsApp for personalized service. We use only the finest ingredients to craft cakes that taste as good as they look. Let us make your next celebration unforgettable with our exquisite creations.
             </p>
             <div className="flex flex-auto">
             <a
@@ -125,7 +125,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       <footer className="p-6 text-center text-white/80 sm:p-12">
         ©️2024 {" "}
         <a
-          href="https://edelsonphotography.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
@@ -134,7 +133,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </a>
       
         <a
-          href="https://www.newrevmedia.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
@@ -143,7 +141,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </a>
     
         <a
-          href="https://www.garysextonphotography.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
