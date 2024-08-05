@@ -69,6 +69,19 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               unforgettable with our exquisite creations.
             </p>
             <div className="flex flex-auto">
+            <a
+                className="pointer z-10 mx-2 mt-6 flex justify-center rounded-full border bg-blue-600  px-2 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
+                href="https://www.facebook.com/profile.php?id=100064186898710&mibextid=ZbWKwL"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="mx-2 invert"
+                  src="facebook.png"
+                  alt=""
+                  width="20px"
+                />
+              </a>
               <a
                 className="pointer z-10 mx-2 mt-6 flex justify-evenly rounded-full border bg-green-500 px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
                 href="https://wa.me/9574626395"
@@ -76,7 +89,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 rel="noreferrer"
               >
                 <img
-                  className="bold mx-3 invert"
+                  className="bold mx-2 invert"
                   src="whatsapp.png"
                   alt=""
                   width="20px"
@@ -89,7 +102,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 rel="noreferrer"
               >
                 <img
-                  className="mx-3 invert"
+                  className="mx-2 invert"
                   src="location.png"
                   alt=""
                   width="20px"
@@ -102,12 +115,13 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 rel="noreferrer"
               >
                 <img
-                  className="mx-3 invert"
+                  className="mx-2 invert"
                   src="phone.png"
                   alt=""
                   width="20px"
                 />
               </a>
+              
             </div>
           </div>
           <div className="my-4 flex text-center justify-center font-caveat text-3xl text-white">
