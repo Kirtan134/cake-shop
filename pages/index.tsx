@@ -55,46 +55,66 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <span className="flex max-h-full max-w-full items-center justify-center">
                 <Bridge />
               </span>
-              <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-white to-white"></span>
+              <span className="absolute bottom-0 left-0 right-0 h-[400px] bg-gradient-to-b from-black/0 via-white to-white"></span>
             </div>
-            <Logo/>
-            <h1 className=" text-3xl font-pacifico ">
-              Homeland Cakes
-            </h1>
-            <p className="text-3xl font-caveat ">Freshly Baked</p>
+            <Logo />
+            <h1 className=" font-pacifico text-3xl ">Homeland Cakes</h1>
+            <p className="font-caveat text-3xl ">Freshly Baked</p>
             <p className="max-w-[40ch] text-black/75 sm:max-w-[32ch]">
-            Welcome to Homeland Cakes! With over 200 custom cake designs, we transform your sweetest dreams into reality. Browse our gallery to find inspiration and order directly via WhatsApp for personalized service. We use only the finest ingredients to craft cakes that taste as good as they look. Let us make your next celebration unforgettable with our exquisite creations.
+              Welcome to Homeland Cakes! With over 200 custom cake designs, we
+              transform your sweetest dreams into reality. Browse our gallery to
+              find inspiration and order directly via WhatsApp for personalized
+              service. We use only the finest ingredients to craft cakes that
+              taste as good as they look. Let us make your next celebration
+              unforgettable with our exquisite creations.
             </p>
             <div className="flex flex-auto">
-            <a
-              className="pointer flex z-10 mx-2 mt-6 justify-evenly rounded-full border bg-green-500 px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
-              href="https://wa.me/9574626395"
-              target="_blank"
-              rel="noreferrer"
-            >
-                 
-              <img className="mx-3 invert bold" src="whatsapp.png" alt=""  width= "20px"/>
-            </a>
-            <a
-              className="pointer flex z-10 mx-2 mt-6 justify-evenly rounded-full border bg-slate-400  px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
-              href="https://maps.app.goo.gl/Acn2LmQdVWy2MdsV8"
-              target="_blank"
-              rel="noreferrer"
-            >
-                 
-              <img className="mx-3 invert" src="location.png" alt=""  width="20px"/>
-            </a>
-            <a
-              className="pointer flex z-10 mx-2 mt-6 justify-evenly rounded-full border bg-blue-400  px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
-              href="tel:+91-9574626395"
-              target="_blank"
-              rel="noreferrer"
-            >
-                
-              <img className="mx-3 invert" src="phone.png" alt=""  width="20px"/>
-            </a>
+              <a
+                className="pointer z-10 mx-2 mt-6 flex justify-evenly rounded-full border bg-green-500 px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
+                href="https://wa.me/9574626395"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="bold mx-3 invert"
+                  src="whatsapp.png"
+                  alt=""
+                  width="20px"
+                />
+              </a>
+              <a
+                className="pointer z-10 mx-2 mt-6 flex justify-evenly rounded-full border bg-slate-400  px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
+                href="https://maps.app.goo.gl/Acn2LmQdVWy2MdsV8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="mx-3 invert"
+                  src="location.png"
+                  alt=""
+                  width="20px"
+                />
+              </a>
+              <a
+                className="pointer z-10 mx-2 mt-6 flex justify-evenly rounded-full border bg-blue-400  px-3 py-2 font-mono text-white transition hover:bg-white/10 hover:text-white md:mt-4"
+                href="tel:+91-9574626395"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="mx-3 invert"
+                  src="phone.png"
+                  alt=""
+                  width="20px"
+                />
+              </a>
             </div>
           </div>
+          <div className="my-4 flex text-center justify-center font-caveat text-3xl text-white">
+             See Our Creations below
+            <img src="arrow.png" className="invert mt-2 h-10 mx-5" alt="" />
+          </div>
+
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
               key={id}
@@ -123,7 +143,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        ©️2024 {" "}
+        ©️2024{" "}
         <a
           target="_blank"
           className="font-semibold hover:text-white"
@@ -131,22 +151,16 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         >
           Homeland Cakes,{""}
         </a>
-      
         <a
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
-        >
-          
-        </a>
-    
+        ></a>
         <a
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
-        >
-         
-        </a>{" "}
+        ></a>{" "}
         All Rights Reserved.
       </footer>
     </>
