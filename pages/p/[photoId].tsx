@@ -12,12 +12,12 @@ const Home: NextPage = ({ currentPhoto }: { currentPhoto: ImageProps }) => {
   const { photoId } = router.query;
   let index = Number(photoId);
 
-  const currentPhotoUrl = `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_2560/${currentPhoto.public_id}.${currentPhoto.format}`;
+  const currentPhotoUrl = `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_2560/t_logo/${currentPhoto.public_id}.${currentPhoto.format}`;
 
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>Homeland Cakes</title>
         <meta property="og:image" content={currentPhotoUrl} />
         <meta name="twitter:image" content={currentPhotoUrl} />
       </Head>
@@ -75,3 +75,4 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
+
